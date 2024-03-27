@@ -33,47 +33,47 @@ header h3{
 header p{
     color:white;
 }
-.row3{
-    position: absolute;
-    top: 288px;
-    height: 200px;
-    width: 82%;
-}
-.row3 h2{
+.contact h1{
+    font-weight: bold;
     color: orange;
-    font-size: 20px;
-    padding-top: 400px;
-    padding-bottom:5zzzpx;
-    align-items: center;
+    font-size: 30px;
+    font-family: "Lobster";
 }
-.row3 .col{
-    width: 240px;
+.contact {
     display: flex;
-    float: left;
-    align-items: center;
-    height: 120px;
-    margin-right: 47px;
-    
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    justify-content: center;
 }
-.row3 .c1{
-    width: 100px;
-    float: left;
-    margin-right:40px;
-    line-height: 25px;
-    padding-top: 1000px;
-    
-    
-    
+.contact  a{
+    color: white;
+    font-family:"monstrrat";
+    font-size: 15px;
+    text-decoration: none;
 }
-.row3.col:last-child{
-    margin: 5px;
+.contact   h2{
+    color: white;
+    font-family:"monstrrat";
+    font-size:15px;
+    text-decoration: none;
 }
-.rb .c1 h5{
-    color: orange;
-    
+@media  screen and (max-width:800px){
+    header{
+        
+    }
+    header img{
+        height: 280px;
+    }
+    header h3{
+        font-size: 30px;
+       
+    }
+    header p{
+        font-size: 10px;
+        justify-content: space-between;
 
-}
-.rb .c1 h6{
-    color: orange;
+    }
+   
 }
 
